@@ -1,0 +1,14 @@
+회귀
+출력층 노드의 개수 : 1개
+출력층의 활성 함수 : X
+손실함수 : mean_squared_error
+
+2진분류(결과 종류가 두 가지..)
+출력층 노드의 개수 : 1개
+출력층의 활성 함수 : sigmoid
+손실함수 : binary_crossentropy
+
+다중분류(결과 종류가 세 가지 이상)
+출력층 노드의 개수 : 결과값 종류 수
+출력층의 활성 함수 : softmax
+손실함수 : categorical_crossentropy
